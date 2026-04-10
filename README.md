@@ -1,10 +1,10 @@
-# 🤖 Discord Meme Bot
+# Discord Meme Bot
 
 This project is a lightweight Python-based Discord bot that listens for a user command (`$meme`) and responds by fetching and posting a random meme from Reddit. It was designed to demonstrate understanding of API integration, asynchronous event-driven programming, and bot deployment in the Discord ecosystem.
 
 ---
 
-## 🛠️ What I Built
+## What I Built
 
 The bot was implemented using the `discord.py` library, which wraps the Discord API for Python developers. The bot listens for specific message events in a Discord server and responds to the `$meme` keyword with a meme image retrieved from an external API.
 
@@ -20,7 +20,7 @@ Key components I implemented:
 
 ---
 
-## 💡 Technologies Used
+## Technologies Used
 
 - **Python 3** — Main programming language
 - **discord.py** — Python wrapper for the Discord API
@@ -29,7 +29,7 @@ Key components I implemented:
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 - When the bot is running and connected to a Discord server, it listens for incoming messages.
 - If a user sends a message that starts with `$meme`, the bot sends a GET request to the Meme API.
@@ -38,7 +38,7 @@ Key components I implemented:
 
 ---
 
-## 📌 Code Snippet (Core Logic)
+## Code Snippet (Core Logic)
 
 ```python
 async def on_message(self, message):
